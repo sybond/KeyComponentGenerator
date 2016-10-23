@@ -167,9 +167,3 @@ public class MainJFrame
     EventQueue.invokeLater(new e());
   }
 }
-
-
-/* Location:           Z:\home\sybond\Projects\KeyComponentGenerator\dist\KeyComponentGenerator_stable.jar
- * Qualified Name:     keycomponentgenerator.MainJFrame
- * JD-Core Version:    0.7.0.1
- */
