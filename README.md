@@ -32,11 +32,49 @@ Key Component #5=3ED0765294CB4A9E KCV=8F4690
 
 Done in 9 milisecond(s)
 ```
+
+## Console Support
+In console mode you can generate up to 99 key component, which is enormous useless :P
+
+Here is the syntax for generating key component from console:
+```
+Usage: KeyComponentGenerator.jar KEY_INPUT NUM_OF_COMPONENT
+
+KEY_INPUT         A key represented in hex-string. For example:
+                  1c1c1c1c1c1c1c1c or 1C1C1C1C1C1C1C1C or 1C1c1c1C1C1c1c1C
+                  Any input with invalid key size will be padded
+                  by (byte)0x00 until meet the correct length.
+
+NUM_OF_COMPONENT  Number of component to be generated. Valid values
+                  are 2 to 99. But it is useless since HSM normally
+                  support only (max) 9 key component.
+
+More helps please visit http://sybond.web.id.
+```
+
+Example executing Key Component Generator in console mode:
+```
+java -jar KeyComponentGenerator.jar 1c1c1c1c1c1c1c1c 9
+Key Component Generator v1.2
+Copyright (c) 2014 Bondan Sumbodo <sybond@gmail.com>
+
+- Input key check value: 77800C, is Odd Parity: true
+- Key Component #01 = E931A7255B13BF4C KCV = AB8814
+- Key Component #02 = 3804AB79791F89BA KCV = 763B83
+- Key Component #03 = 9B347562265B4F5E KCV = DEDC9E
+- Key Component #04 = C1EABF1CCBB5FDE6 KCV = 9E2615
+- Key Component #05 = D6B50E8FFB0DD5E3 KCV = C14132
+- Key Component #06 = 4A7FD52525A14562 KCV = 24EF18
+- Key Component #07 = 40C78949DFD61F9D KCV = F8902E
+- Key Component #08 = 8AF22FEFA432AED5 KCV = 21EDE2
+- Key Component #09 = C108A73276B6B99B KCV = 6CCCF8
+```
+
 ## Features
 - Support Single length, Double length, and Triple length keys
 - Key check value calculation
 - Odd parity check
-- With Graphical User Interface
+- With Graphical User Interface; enabled console mode for scripting support
 - Java, runs everywhere
 
 ## Credits
