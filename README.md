@@ -29,3 +29,9 @@ Key Component #5=3ED0765294CB4A9E KCV=8F4690
 
 Done in 9 milisecond(s)
 ```
+# Features
+- Support Single length, Double length, and Triple length keys
+- Key check value calculation
+- Odd parity check
+- With Graphical User Interface
+- Java, runs everywhere
