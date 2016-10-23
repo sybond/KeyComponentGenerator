@@ -1,4 +1,7 @@
 # Key Component Generator
+
+![](https://raw.githubusercontent.com/sybond/KeyComponentGenerator/master/Screenshot%20from%202016-10-23%2014-16-02.png)
+
 *Key Component Generator* is simple tool to generate new key component from single key.
 By normal condition during key ceremonies, a key custodians will generate their own key component, and in the end HSM will calculate the key components into single master key then encrypt it using HSM's LMK.
 
@@ -29,12 +32,12 @@ Key Component #5=3ED0765294CB4A9E KCV=8F4690
 
 Done in 9 milisecond(s)
 ```
-# Features
+## Features
 - Support Single length, Double length, and Triple length keys
 - Key check value calculation
 - Odd parity check
 - With Graphical User Interface
 - Java, runs everywhere
 
-# Credits
+## Credits
 Graphical icon made by [madebyoliver](http://www.flaticon.com/authors/madebyoliver) from [www.flaticon.com](http://www.flaticon.com)
