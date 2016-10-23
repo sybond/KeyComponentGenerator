@@ -35,3 +35,6 @@ Done in 9 milisecond(s)
 - Odd parity check
 - With Graphical User Interface
 - Java, runs everywhere
+
+# Credits
+Graphical icon made by [madebyoliver](http://www.flaticon.com/authors/madebyoliver) from [www.flaticon.com](http://www.flaticon.com)
